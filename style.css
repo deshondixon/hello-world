@@ -122,3 +122,10 @@ a {
   color: #ffffff;
   text-align: center;
 }
+
+body {
+  color: rgb(255, 255, 255);
+  text-shadow: 3px 3px 4px #f90000;
+  text-shadow: 7px .3px 6px rgb(0, 0, 0);
+  
+}
