@@ -32,7 +32,7 @@ function greatTHING() {
     alert("YOU LACK FAITH IN AI.");
   } else if (time <= 5) {
     alert("YOUR A COOL HUMAN");
-  } else if (time < 10) {
+  } else if (time <=10) {
     alert("YOUR MY FAVORITE HUMAN");
   } else {
     alert("FOLLOW INSTRUCTIONS SILLY HUMAN.");
@@ -41,6 +41,21 @@ function greatTHING() {
 }
 
 greatTHING();
+
+//---------------------------------------------------------------------------------------------------------------------------------------
+
+function rateMyPage(){
+  let rating = prompt('How many Eves would you rate my page? (From 1-5)');
+  console.log(rating);
+
+  for (let i = 0; i < rating; i++){
+    console.log(i);
+    document.write('<img style="width:50px; height:50px; margin:auto; padding:aut" src="https://i.pinimg.com/originals/25/59/ec/2559ecdebba551ddbc6d0f0332e57873.png" />');
+  }
+}
+
+
+
 
 //-------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -56,3 +71,6 @@ function myFunction() {
 }
 
 myFunction();
+
+//--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
