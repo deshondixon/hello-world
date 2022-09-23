@@ -50,7 +50,7 @@ function rateMyPage(){
 
   for (let i = 0; i < rating; i++){
     console.log(i);
-    document.write('<img style="width:50px; height:50px; margin:auto; padding:aut" src="https://i.pinimg.com/originals/25/59/ec/2559ecdebba551ddbc6d0f0332e57873.png" />');
+    document.write('<img style="width:50px; height:50px; margin:auto; padding:auto" src="https://i.pinimg.com/originals/25/59/ec/2559ecdebba551ddbc6d0f0332e57873.png" />');
   }
 }
 
