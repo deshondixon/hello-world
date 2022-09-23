@@ -63,6 +63,7 @@ img {
 }
 p{ 
   margin: auto;
+  padding: .4%;
   width: 50%; 
   text-align: center;
   font-weight:bold;
