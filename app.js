@@ -42,6 +42,15 @@ function greatTHING() {
 
 greatTHING();
 
+function guessQuestion(){
+  let usersGuess = prompt('When was AI first introduced?');
+
+  while (usersGuess !== '1956'){
+    usersGuess = prompt('You lack common AI knowledge. Try again Human.');
+  }
+}
+guessQuestion();
+
 //---------------------------------------------------------------------------------------------------------------------------------------
 
 function rateMyPage(){
